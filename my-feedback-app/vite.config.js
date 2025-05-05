@@ -8,7 +8,7 @@ export default defineConfig({
   css: {
     postcss: {
       plugins: [tailwindcss, autoprefixer],
-      base: "/Feedback-system"
+      base: process.env.VITE_BASE_PATH || "/Feedback-system"
     },
   },
 });
