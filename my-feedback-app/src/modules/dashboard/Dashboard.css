@@ -1,0 +1,66 @@
+/* Dashboard.css */
+
+/* Adding the Poppins font to the body */
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Animation for the Philips heading */
+  .philips-heading {
+    font-family: 'Poppins';
+    font-size: 3rem; /* Adjust as needed */
+    font-weight: 700;
+    color: #ffffff; /* Or any color you prefer */
+    text-align: left;
+    animation: blurAppear 1s ease-in-out;
+  }
+  
+  /* Animation keyframes */
+  @keyframes blurAppear {
+    0% {
+      filter: blur(10px);
+      opacity: 0;
+    }
+    100% {
+      filter: blur(0);
+      opacity: 1;
+    }
+  }
+  /* Dashboard.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+.philips-heading {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #0ea5e9;
+  animation: blurIn 1.2s ease-out forwards;
+  filter: blur(4px);
+  opacity: 0;
+}
+
+@keyframes blurIn {
+  to {
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+/* Dashboard.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+.philips-heading {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #0ea5e9;
+  animation: blurIn 1.2s ease-out forwards;
+  filter: blur(4px);
+  opacity: 0;
+}
+
+@keyframes blurIn {
+  to {
+    filter: blur(0);
+    opacity: 1;
+  }
+}
